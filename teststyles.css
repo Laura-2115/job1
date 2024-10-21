@@ -1,0 +1,48 @@
+html, body, p{
+    margin:0;
+    padding:0;
+}
+
+header{
+    padding:25px 0px;
+    background-color:cornflowerblue;
+    text-align: left;
+}
+
+.dropdown{
+    background-color: cornflowerblue;
+    display: flex;
+}
+.dropdown ul{
+    display: none;
+}
+.dropdown,
+.dropdown ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.dropdown a{
+    display:block;
+    width:100px;
+    height:35px;
+    line-height:35px;
+    color:#fff;
+    background-color: aqua;
+    text-decoration: none;
+    padding:3px 10px;
+    text-align: center;
+}
+.dropdown li{
+    position: relative;
+}
+.dropdown li{
+    display:block;
+    position:absolute;
+    top:41px;
+    left:0px;
+    z-index:100;
+}
+.dropdown ul a:hover{
+    background-color: cornsilk;
+}
